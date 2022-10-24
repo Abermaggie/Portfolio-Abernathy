@@ -61,8 +61,8 @@ h1 {
    padding: 20px;
    clear:both;
    float:left;
-   width: 30%;
-   height:940px%;
+   width: 35%;
+   height:5%;
    background: linear-gradient(peachpuff,rgb(145, 35, 35));
    font-weight:800;
    margin-top:0%;
@@ -78,9 +78,10 @@ h1 {
     height: 100%;
     width: 100%;
 }
-h2 {
-    font-size:175%;
-    width:50%;
+/* h2 { */
+    font-size:160%;
+    width:100%;
+    font-style: normal;
 }
 .pro-1 {
     width:50%;
@@ -98,14 +99,23 @@ h2 {
     width:55%;
     height:auto;
 }
+div h2 a:link {
+    text-decoration: None;
+    font-size:100%;
+    width: 100%;
+    font-style:normal;
+    font-family:Arial, Helvetica, sans-serif;
+    color:black;
+}
 .projects {
     display: flex;
     border-style:solid;
-    border-width: 0%;
+    border-width: 4%;
     border-radius: 10%;
-    flex: 0 0 475px;
-    margin:2% 5% 5% 2%;
+    flex: 0 0 480px;
+    margin:2% 0% 4% 4%;
     font-size: 75%;
     height:10%;
-    width:45%;
+    width:50%;
 }
+
