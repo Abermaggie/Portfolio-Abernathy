@@ -58,7 +58,7 @@ h1 {
 }
 .aboutme {
    margin-left:3%;
-   padding: 20px;
+   padding: 1.5%;
    clear:both;
    float:left;
    width: 35%;
@@ -66,10 +66,11 @@ h1 {
    background: linear-gradient(peachpuff,rgb(145, 35, 35));
    font-weight:800;
    margin-top:0%;
+   margin-left:5%;
 }
 .justifyright {
     float:right;
-    margin-left: 25px;
+    margin-left: 55px;
     height: auto;
 }
 .justifyleft {
@@ -77,11 +78,6 @@ h1 {
     margin-right: auto;
     height: 100%;
     width: 100%;
-}
-/* h2 { */
-    font-size:160%;
-    width:100%;
-    font-style: normal;
 }
 .pro-1 {
     width:50%;
@@ -95,27 +91,37 @@ h1 {
     justify-content: space-evenly;
     margin-left: 40%;
 }
-.projects img{
-    width:55%;
-    height:auto;
+.projects img {
+    display:flex;
+    /* flex-direction: column; */
+    flex-wrap:wrap;
+    width:100%;
+    border-radius: 10%;
+    height:18em;
+    margin-right:2%;
+}
+.marketimg {
+    display:flex;
+    flex:0 0 20%;
+    margin-left: 1%;
+    margin-right: 0%;
+    width:100%;
 }
 div h2 a:link {
     text-decoration: None;
-    font-size:100%;
-    width: 100%;
-    font-style:normal;
+    font-size:90%;
+    width: 90%;
     font-family:Arial, Helvetica, sans-serif;
     color:black;
+    margin-left:-5%;
 }
+
 .projects {
     display: flex;
     border-style:solid;
-    border-width: 4%;
+    /* border-width: 15%; */
     border-radius: 10%;
-    flex: 0 0 480px;
-    margin:2% 0% 4% 4%;
+    flex: 0 0 70%;
+    margin:0% 0% 4% 15%;
     font-size: 75%;
     height:10%;
-    width:50%;
-}
-
