@@ -1,3 +1,4 @@
+/* Indent the margins for whole site to make for a more crisp look. */
 * {
     box-sizing: border-box;
     padding: 0%;
@@ -7,9 +8,10 @@
 body{
     position:relative;
     background-color:peachpuff;
-    margin-top:0%;
+    margin-top:5%;
     padding-top:0%;
 }
+/* Positioning for links in topbox, color and margins */
 .topbox nav a {
     color:peachpuff;
     text-align: center;
@@ -23,8 +25,9 @@ body{
     align-content: center;
     font-size: 250%;
     max-width: 100%;
+    margin-bottom:6%;
 }
-
+/* Create 'peep hole' circle for picture and center the picture in the header bar. */
 .me1 {
     display: block;
     margin-left: auto;
@@ -34,17 +37,20 @@ body{
     height: auto;
     
 }
+/* Center Title. */
 .topbox h1 {
     justify-content:center; 
 }
+/* Size, center, and align content for links. */
 .barlinks {
     display:flex;
     justify-content: center;
     align-content: space-between;
-    font-size: 40%;
+    font-size: 45%;
     color: peachpuff;
     
 }
+/* Create a link that reacts when a mouse hovers over it. Bold and shadow  */
 .barlinks a:hover {
     color:lightgoldenrodyellow;
     text-shadow: 2px 2px 4px #1095c1;
@@ -56,37 +62,35 @@ h1 {
     justify-content: center;
     margin-top:2%;
 }
+/* About me should be in the side bar with a defining characteristic as the background to separate it from the other content. */
 .aboutme {
-   margin-left:3%;
-   padding: 1.5%;
-   clear:both;
-   float:left;
-   width: 35%;
-   height:5%;
-   background: linear-gradient(peachpuff,rgb(145, 35, 35));
-   font-weight:800;
-   margin-top:0%;
-   margin-left:5%;
+    padding: 1.5%;
+    clear:both;
+    float:left;
+    width: 35%;
+    background: linear-gradient(peachpuff,rgb(145, 35, 35));
+    font-weight:800;
+    margin-top:0%;
+    margin-left:3%;
+}
+.bannercoming {
+    margin-top:10%;
 }
 .justifyright {
     float:right;
     margin-left: 55px;
-    height: auto;
 }
 .justifyleft {
     float:left;
     margin-left: .5%;
-    height: 100%;
-    width: 100%;
+    margin-top: 8%;
 }
 .pro-1 {
     width:50%;
     padding: 0%;
-    margin-top:0%;
     background-color: peachpuff;
     display:flex;
     flex-wrap:wrap;
-    justify-items: center;
     height:45%;
     justify-content: space-evenly;
     margin-left: 40%;
@@ -98,21 +102,24 @@ h1 {
     border-radius: 10%;
     height:16em;
     margin-right:2%;
+    margin-bottom: 10%;
+    padding: auto;
 }
 #HTML-Bootcamp-Study-Guide {
     display:flex;
     flex-wrap:wrap;
     width: 500%;
     border-radius: 10%;
-    height: 18em;
+    height: 100%;
     margin-right: 2%;
+    margin-top: 2%;
 }
 .marketimg {
     display:flex;
-    flex:0 0 20%;
-    margin-left: 1%;
+    width:90%;
+    height:80%;
+    margin-left: 20%;
     margin-right: 0%;
-    width:100%;
 }
 div h2 a:link {
     text-decoration: None;
@@ -127,11 +134,12 @@ div h2 a:link {
     display: flex;
     border-style:solid;
     border-radius: 10%;
-    flex: 0 0 70%;
+    flex: 0 0 80%;
     margin:0% 0% 4% 15%;
     font-size: 75%;
     height:8%;
 }
+/* Specifically targeting this app because it is the first one and needs to be largers than the others. */
 #HTML-Bootcamp-Study-Guide {
     display:flex;
     border-style: solid;
@@ -141,10 +149,10 @@ div h2 a:link {
     font-size: 100%;
     height: 50%;
 }
+/* Create a form that allows client to contact me. */
 form {
     margin: 0 auto;
     width: 50%;
-    /* padding: 10px; */
     border: 5px solid;
     border-radius: 30px;
     text-align: left;
@@ -152,8 +160,10 @@ form {
 input,text area li{
     box-sizing: border-box;
     width: 85%;
-    height:20%;
+    height:50%;
+    margin-top:0%;
 }
+/* Create a send button for user to submit info. */
 button {
     height: 30px;
     width: 120px;
@@ -161,70 +171,78 @@ button {
     font-weight:bolder;
     color:darkred;
 }
+/* Add style to form headers and button. */
 .My-links {
     font-size:150%;
     font-weight: bolder;
     color: rgb(145, 35, 35);
 }
+/* Contact me styling */
 .Fixed-Header {
     text-align:center;
     font-weight:600;
     color:darkgray;
 }
-.Contact-Form, h2 {
+/* location of actual form on the page */
+.Contact-Form, h3 {
     text-align:center;
     color:rgb(145, 35, 35);
+    margin-top:15%;
 }
-.BG-color {
-    margin: 0% 0% 0% 25%;
+/* Add in your name to claim layout. */
+.footer h4{
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: darkred;
+    color:aliceblue;
 }
-.BG-color u1 li {
-    margin: 2% 65% 0% 2%;
-    padding:0%;
-}
+/* Add responsive design based on screen sizes of desktop, tablet, and mobile. */
 @media screen and (max-width:992px) {
     .projects img {
+        position:relative;
         justify-content: center;
-        margin-right:.5%;
+        align-content:space-between;
+        margin-right: 0%;
+        width:100%;
+        height: 100%;
     }
 
     .aboutme {
         margin-left:5%;
-        width: 30%;
-    }
-    .projects {
-        flex: 0 0 85%;
-        margin: 2% 0% 10% 15%;
-        height: 5%;
-        
-    }
-    
-@media screen and (max-width:768px) {
-    .aboutme {
-        margin-left: 3%;
         width: 40%;
     }
-    .projects img {
-        height: 10em;
-        width: 9em;
-    }
     .projects {
-        margin: 5% 0% 2% 15%;        
-        height:17em;
-        padding: 5%;
+        flex: 0 0 75%;
+        margin: 5% 0% 5% 15%;
+        height: 100%;
+        width:100%;
+        padding-top:5%;
+        
     }
-   .Contact-Form, h2 {
-    padding-top: 30%;
-    margin-top:15%;
-   }
-   .BG-color li {
-    margin-left: 5%;
-   }
+    .marketimg {
+
+        position:fixed;
+        justify-content:center;
+        margin-left: .5%;
+    }
+    .bannercoming img {
+        width: 100%;
+    }
+    .Contact-Form {
+        margin-top:30%;
+    }
+   
+@media screen and (max-width:768px) {
+    .Contact-Form {
+        margin-top: 50%;
+    }
 }
 @media screen and (max-width: 576px) {
     .aboutme {
         margin-left: -1.5%;
         width: 100%;
+        height:5%;
     }
     .bannercoming {
         width:100%
@@ -236,6 +254,7 @@ button {
     }
     .pro-1 {
         margin-left: 25%;
+        height:100%;
     }
     .projects {
         display:flex;
@@ -247,9 +266,8 @@ button {
     .projects img {
         display: flex;
         flex-direction: column;
-        margin: 1% 9% 9% 15%;
     }
-        .Contact-Form h2 {
+    .Contact-Form h2 {
         display:flex;
         flex-direction: column;
         margin: 1% 5% 9% 20%;
