@@ -74,7 +74,7 @@ h1 {
     margin-left:3%;
 }
 .bannercoming {
-    margin-top:10%;
+    margin-top:20%;
 }
 .justifyright {
     float:right;
@@ -135,7 +135,7 @@ div h2 a:link {
     border-style:solid;
     border-radius: 10%;
     flex: 0 0 80%;
-    margin:0% 0% 4% 15%;
+    margin:0% 0% 1% 15%;
     font-size: 75%;
     height:8%;
 }
