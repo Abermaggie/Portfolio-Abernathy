@@ -97,8 +97,16 @@ h1 {
     flex-wrap:wrap;
     width:100%;
     border-radius: 10%;
-    height:18em;
+    height:16em;
     margin-right:2%;
+}
+#HTML-Bootcamp-Study-Guide {
+    display:flex;
+    flex-wrap:wrap;
+    width: 500%;
+    border-radius: 10%;
+    height: 18em;
+    margin-right: 2%;
 }
 .marketimg {
     display:flex;
@@ -125,3 +133,54 @@ div h2 a:link {
     margin:0% 0% 4% 15%;
     font-size: 75%;
     height:10%;
+}
+#HTML-Bootcamp-Study-Guide {
+    display:flex;
+    border-style: solid;
+    border-radius: 10%;
+    flex: 0 0 100%;
+    margin 0% 0% 4% 15%;
+    font-size: 100%;
+    height: 50%;
+}
+form {
+    margin: 0 auto;
+    width: 50%;
+    /* padding: 10px; */
+    border: 5px solid;
+    border-radius: 30px;
+    text-align: left;
+}
+input,text area li{
+    box-sizing: border-box;
+    width: 85%;
+    height:20%;
+}
+button {
+    height: 30px;
+    width: 120px;
+    text-align: center;
+    font-weight:bolder;
+    color:darkred;
+}
+.My-links {
+    font-size:150%;
+    font-weight: bolder;
+    color: rgb(145, 35, 35);
+}
+.Fixed-Header {
+    text-align:center;
+    font-weight:600;
+    color:darkgray;
+}
+.Contact-Form, h2 {
+    text-align:center;
+    color:rgb(145, 35, 35);
+}
+.BG-color {
+    margin: 0% 0% 0% 25%;
+}
+.BG-color u1 li {
+    margin: 2% 65% 0% 2%;
+    padding:0%;
+}
