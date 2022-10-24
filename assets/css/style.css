@@ -75,7 +75,7 @@ h1 {
 }
 .justifyleft {
     float:left;
-    margin-right: auto;
+    margin-left: .5%;
     height: 100%;
     width: 100%;
 }
@@ -93,7 +93,6 @@ h1 {
 }
 .projects img {
     display:flex;
-    /* flex-direction: column; */
     flex-wrap:wrap;
     width:100%;
     border-radius: 10%;
@@ -127,12 +126,11 @@ div h2 a:link {
 .projects {
     display: flex;
     border-style:solid;
-    /* border-width: 15%; */
     border-radius: 10%;
     flex: 0 0 70%;
     margin:0% 0% 4% 15%;
     font-size: 75%;
-    height:10%;
+    height:8%;
 }
 #HTML-Bootcamp-Study-Guide {
     display:flex;
@@ -183,4 +181,82 @@ button {
 .BG-color u1 li {
     margin: 2% 65% 0% 2%;
     padding:0%;
+}
+@media screen and (max-width:992px) {
+    .projects img {
+        justify-content: center;
+        margin-right:.5%;
+    }
+
+    .aboutme {
+        margin-left:5%;
+        width: 30%;
+    }
+    .projects {
+        flex: 0 0 85%;
+        margin: 2% 0% 10% 15%;
+        height: 5%;
+        
+    }
+    
+@media screen and (max-width:768px) {
+    .aboutme {
+        margin-left: 3%;
+        width: 40%;
+    }
+    .projects img {
+        height: 10em;
+        width: 9em;
+    }
+    .projects {
+        margin: 5% 0% 2% 15%;        
+        height:17em;
+        padding: 5%;
+    }
+   .Contact-Form, h2 {
+    padding-top: 30%;
+    margin-top:15%;
+   }
+   .BG-color li {
+    margin-left: 5%;
+   }
+}
+@media screen and (max-width: 576px) {
+    .aboutme {
+        margin-left: -1.5%;
+        width: 100%;
+    }
+    .bannercoming {
+        width:100%
+    }
+    .bannercoming img{
+        display:flex;
+        width:90%;
+        margin-
+    }
+    .pro-1 {
+        margin-left: 25%;
+    }
+    .projects {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 10%;
+        height: 15%;
+    }
+    .projects img {
+        display: flex;
+        flex-direction: column;
+        margin: 1% 9% 9% 15%;
+    }
+        .Contact-Form h2 {
+        display:flex;
+        flex-direction: column;
+        margin: 1% 5% 9% 20%;
+        height:7em; 
+        padding-top:30%;
+    }
+    .BG-color li {
+        margin-left: 7%;
+    }
 }
