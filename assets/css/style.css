@@ -3,38 +3,28 @@
     padding: 0%;
     margin: 3%;
 }
-body{
-    display:flex;
-    flex-wrap:wrap;
-    flex-direction: column;
-    width:85%;
-    background-color:peachpuff;
-    align-content: center;
-}
-.barlinks {
-    display:flex;
-    justify-content: center;
-    align-content: space-between;
-    font-size: 45%;
-    color: peachpuff;
-    
-}
-.barlinks a:hover {
-    color:lightgoldenrodyellow;
-    text-shadow: 2px 2px 4px #1095c1;
-    font-weight: bolder;
-}
 
+body{
+    position:relative;
+    background-color:peachpuff;
+    margin-top:0%;
+    padding-top:0%;
+}
 .topbox nav a {
     color:peachpuff;
+    text-align: center;
+    margin-bottom:5%;
+    margin-top:0%;
 }
-.topbox{
-    display:flexbox;
+.topbox {
     background-color:darkred;
     color:peachpuff;
+    font-style: italic;
     align-content: center;
-    flex-direction: column;
+    font-size: 250%;
+    max-width: 100%;
 }
+
 .me1 {
     display: block;
     margin-left: auto;
@@ -44,24 +34,78 @@ body{
     height: auto;
     
 }
-.topbox {
-    display:flexbox;
-    flex-direction:column;
-    font-style: italic;
+.topbox h1 {
+    justify-content:center; 
+}
+.barlinks {
+    display:flex;
     justify-content: center;
-    font-size: 325%;
+    align-content: space-between;
+    font-size: 40%;
+    color: peachpuff;
     
 }
+.barlinks a:hover {
+    color:lightgoldenrodyellow;
+    text-shadow: 2px 2px 4px #1095c1;
+    font-weight: bolder;
+}
+
 h1 {
     display:flex;
     justify-content: center;
+    margin-top:2%;
 }
-aside {
-    flex:1;
-    background: linear-gradient(peachpuff,rgb(145, 35, 35));
-    Padding:50px;
-    text-align:justify;
-    margin-left:0%;
+.aboutme {
+   margin-left:3%;
+   padding: 20px;
+   clear:both;
+   float:left;
+   width: 30%;
+   height:940px%;
+   background: linear-gradient(peachpuff,rgb(145, 35, 35));
+   font-weight:800;
+   margin-top:0%;
+}
+.justifyright {
+    float:right;
+    margin-left: 25px;
+    height: auto;
+}
+.justifyleft {
+    float:left;
+    margin-right: auto;
+    height: 100%;
+    width: 100%;
+}
+h2 {
+    font-size:175%;
+    width:50%;
+}
+.pro-1 {
+    width:50%;
+    padding: 0%;
     margin-top:0%;
-    width:25%;
+    background-color: peachpuff;
+    display:flex;
+    flex-wrap:wrap;
+    justify-items: center;
+    height:45%;
+    justify-content: space-evenly;
+    margin-left: 40%;
+}
+.projects img{
+    width:55%;
+    height:auto;
+}
+.projects {
+    display: flex;
+    border-style:solid;
+    border-width: 0%;
+    border-radius: 10%;
+    flex: 0 0 475px;
+    margin:2% 5% 5% 2%;
+    font-size: 75%;
+    height:10%;
+    width:45%;
 }
