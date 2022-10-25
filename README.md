@@ -24,6 +24,14 @@ https://drive.google.com/file/d/1IucQrL50QasRDxLDa2SMXqfSzJsWkkab/view
 Video Clip #4: Viewing the web page and the responsive design based on media viewport types
 https://drive.google.com/file/d/1mNKTIsC2v9j9LMHOcbCEokFqF5xV23g9/view
 
+Screen Shot #1:
+<img width="787" alt="Header for Web Page" src="https://user-images.githubusercontent.com/114010430/197651999-8f416eef-4e10-4423-8510-f4a7c7d328fb.png">
+
+Screen Shot #2:
+<img width="786" alt="Content for Web Page" src="https://user-images.githubusercontent.com/114010430/197652106-3f21bc8a-d1fa-4611-877e-2d8b808ac3cd.png">
+
+Screen Shot #3:
+<img width="801" alt="Contact Form and Footer" src="https://user-images.githubusercontent.com/114010430/197652184-26e0dc5c-0994-4133-9f9d-18b5dd0be0e2.png">
 
 
 
