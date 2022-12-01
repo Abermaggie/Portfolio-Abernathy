@@ -197,6 +197,13 @@ button {
     background-color: darkred;
     color:aliceblue;
 }
+
+.beachCouple {
+    display:flex;
+    height:80%;
+    margin-left: 3%;
+    margin-right: 50%;
+}
 /* Add responsive design based on screen sizes of desktop, tablet, and mobile. */
 @media screen and (max-width:992px) {
     .projects img {
